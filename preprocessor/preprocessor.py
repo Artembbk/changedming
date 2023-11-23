@@ -230,7 +230,6 @@ class Preprocessor:
         # Save files
         dur_filename = "{}-duration-{}.npy".format(speaker, basename)
         np.save(os.path.join(self.out_dir, "duration", dur_filename), duration)
-        print("pitch")
         pitch_filename = "{}-pitch-{}.npy".format(speaker, basename)
         np.save(os.path.join(self.out_dir, "pitch", pitch_filename), pitch)
 

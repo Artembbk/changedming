@@ -2,9 +2,9 @@ dataset: "LJSpeech"
 
 path:
   corpus_path: "/kaggle/input/fs-dataset/fastspeech/data/LJSpeech-1.1"
-  lexicon_path: "/home/artem/fs2ming/FastSpeech2/lexicon/librispeech-lexicon.txt"
-  raw_path: "/home/artem/fs2ming/FastSpeech2/raw_data/LJSpeech"
-  preprocessed_path: "/home/artem/fs2ming/FastSpeech2/preprocessed_data/LJSpeech"
+  lexicon_path: "/kaggle/working/changedming/lexicon/librispeech-lexicon.txt"
+  raw_path: "/kaggle/working/changedming/raw_data/LJSpeech"
+  preprocessed_path: "/kaggle/working/changedming/preprocessed_data/LJSpeech"
 
 preprocessing:
   val_size: 512
